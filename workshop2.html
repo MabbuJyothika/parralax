@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .parallax{
+          background-image: url("day13/img1.jpg");
+          height: 100vh;
+          width: 100%;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+           background-size: cover;
+           display: flex;
+           justify-content: center; 
+           align-items: center; 
+           
+           }
+ 
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+li{
+    list-style-type: none;
+}
+.main{
+      position: fixed;    
+      top:0px; 
+      z-index: 2;
+    display: flex;
+    
+     flex-direction: column;
+  
+    
+  
+}
+
+.head{
+    color: #777;
+    background-color:rgba(255 ,255,255,0.6);
+    border-radius: 5px;
+    width: 50%;
+    height:50%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.parallax2{
+          background-image: url("day13/img2.jpg");
+          height: 100vh;
+          width: 100%;
+          background-attachment: fixed;
+           background-repeat: no-repeat;
+           background-size: cover;
+           display: flex;
+           justify-content: center; 
+           align-items: center; 
+           
+        }
+.head1{
+    color: #777;
+    background-color:rgba(255 ,255,255,0.6);
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    text-align: center;
+     margin-left: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    
+}
+.parallax3{
+          background-image: url("day13/img3.jpg");
+          height: 100vh;
+          width: 100%;
+          background-attachment: fixed;
+           background-repeat: no-repeat;
+           background-size: cover;
+           display: flex;
+           justify-content: center; 
+           align-items: center;
+          
+           
+        }
+        .head2{
+    color: #777;
+    background-color:rgba(255 ,255,255,0.6);
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="parallax">
+        <div class="main">
+       <h2 style="text-align: center;">Adorable Puppies</h2>
+        <ul >
+            <li>playful pups</li>
+            <li>sleepy pups</li>
+            <li>Curious pups</li>
+        </ul>
+    </div>
+   <div class="head">
+        <img src="day13/img1.jpg" width="250px" height="250px">
+        <div class="para">
+        <h1 >Playful puppies</h1>
+        <p>puppies love to play its how they learn about the world and development skills.</p>
+    </div>
+</div>
+    </div> 
+     <div class="parallax2">
+<div class="head1">
+    <img src="day13/img2.jpg" width="250px" height="250px">
+    <div class="para">
+    <h1>sleepy puppies</h1>
+    <p>puppies love to play its how they learn about the world and development skills.</p>
+</div>
+</div>
+</div>
+<div class="parallax3">
+    <div class="head2">
+        <img src="day13/img3.jpg" width="250px" height="250px">
+        <div class="para">
+        <h1>Curious puppies</h1>
+        <p>puppies love to play its how they learn about the world and development skills.</p>
+    </div>
+    </div> 
+    </div>  
+<footer>
+    <div class="footer">
+        <p>@2024 puppy parallax demo</p>
+    </div>
+</footer>
+    
+   </body>
+</html>
